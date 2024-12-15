@@ -4,7 +4,7 @@ function checkAnswer(answer) {
     if (answer === 'a') {
     result.textContent = "ถูกต้อง PIM ย่อมาจาก PIM";
     result.style.color = 'green';
-    count++;
+    count=1;
     } else {
     result.textContent = "Incorrect! Try again.";
     result.style.color = 'red';
@@ -26,6 +26,6 @@ function checkAnswer(answer) {
         }
 
         result3.textContent = "คุณได้ทั้งหมด " + count + " คะแนน";
-       
+       count = 0;
 
         }
